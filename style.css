@@ -79,6 +79,17 @@ footer{
     text-align: end;
 }
 
+.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.img:hover .hover-img {
+    z-index: 3;
+}
+
 main section div{
    margin-right: 1rem;
 }
