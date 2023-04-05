@@ -27,6 +27,9 @@ header{
 .text-white{
     color: white;
 }
+.text-red{
+    color: red;
+}
 
 .logo{
     width: 50%;
@@ -36,14 +39,6 @@ header{
     width: 25%;
 }
 
-nav div img{
-    width: 20%;
-}
-
-header nav{
-    text-align: center;
-    padding: 1rem;
-}
 
 .box{
     width: calc(100% / 3);
@@ -53,23 +48,43 @@ header nav{
     position: relative;
 }
 
- main section div img{
-    width: 100%;
- }
 
- span.red-box,
- span.green-box{
-    padding: 0.3rem;
-    font-size: smaller;
-    position: absolute ;
-    bottom: 2rem;
- }
-
- .red-box{
+.red-box{
     background-color: red;
     left: 0;
- }
- .green-box{
+}
+.green-box{
     background-color: green;
     left: 3.5rem;
- }
+}
+
+nav div img{
+    width: 20%;
+    }
+    
+header nav{
+    text-align: center;
+    padding: 1rem;
+    }
+
+main section div img{
+   width: 100%;
+}
+
+span.red-box,
+span.green-box{
+   padding: 0.3rem;
+   font-size: smaller;
+   position: absolute ;
+   bottom: 6rem;
+}
+ 
+.favorite{
+    background-color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: .2rem;
+    padding: 5px;
+}
+
