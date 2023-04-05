@@ -11,9 +11,12 @@ body{
 header{
     background-color: rgb(255 105 0);
     font-size: 1rem;
+    margin-bottom: 3rem;
 }
 
-
+footer{
+    background-color: black;
+}
 
 .container{
     max-width: 1170px;
@@ -55,8 +58,20 @@ header{
 }
 .green-box{
     background-color: green;
+}
+
+.left{
     left: 3.5rem;
 }
+
+.left2{
+    left: 0;
+}
+
+main section div{
+   margin-right: 1rem;
+}
+
 
 nav div img{
     width: 20%;
