@@ -86,8 +86,9 @@ footer{
     display: none;
 }
 
-.img:hover .hover-img {
+.box:hover .hover-img {
     display: block;
+    z-index: 3;
 }
 
 main section div{
