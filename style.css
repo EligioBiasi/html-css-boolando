@@ -87,7 +87,7 @@ footer{
 }
 
 .img:hover .hover-img {
-    z-index: 3;
+    display: block;
 }
 
 main section div{
