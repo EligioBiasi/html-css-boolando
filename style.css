@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header{
     background-color: rgb(255 105 0);
+    font-size: 1rem;
 }
+
 
 
 .container{
@@ -18,3 +24,23 @@ header{
     display: flex;
 }
 
+.text-white{
+    color: white;
+}
+
+.logo{
+    width: 50%;
+}
+
+.header-menu{
+    width: 25%;
+}
+
+nav div img{
+    width: 20%;
+}
+
+header nav{
+    text-align: center;
+    padding: 1rem;
+}
