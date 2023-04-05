@@ -16,6 +16,7 @@ header{
 
 footer{
     background-color: black;
+    margin-top: 2.5rem;
 }
 
 .container{
@@ -68,6 +69,16 @@ footer{
     left: 0;
 }
 
+.footer-menu{
+    width: 50%;
+    align-items: center;
+    padding: 2rem;
+}
+
+.items-end{
+    text-align: end;
+}
+
 main section div{
    margin-right: 1rem;
 }
@@ -101,5 +112,14 @@ span.green-box{
     right: 0;
     top: .2rem;
     padding: 5px;
+}
+
+footer div h2 {
+    font-size:large;
+}
+
+footer div span{
+    margin-right: 0.5rem;
+    font-size: smaller;
 }
 
